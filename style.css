@@ -1,0 +1,82 @@
+/* BG COLOR 1: #4F4E4C
+BG COLOR 2: #606357 */
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Golos Text", sans-serif;
+}
+
+nav ul li a:hover {
+  color: #96d76a !important;
+}
+
+.bg-img {
+  background-image: url("imagenes/Home.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.btn {
+  background-color: #96d76a !important;
+}
+
+.carousel-caption {
+  background-color: rgba(41, 40, 40, 0.7);
+  border-radius: 10px;
+}
+
+
+
+.card {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Define un color de fondo semi-transparente */
+  background-blend-mode: lighten; /* Mezcla el color de fondo con la imagen */
+  color: #fff;
+}
+
+.card1 {
+  background-image: url("imagenes/taza-cafe-recien-hecho-servido-taza.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card2 {
+  background-image: url("imagenes/delicioso-arreglo-tazon-acai-espacio-copia.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card3 {
+  background-image: url("imagenes/arreglo-croissants-dulces-vista-superior.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.contact:hover {
+  color: #fff;
+}
+
+.social:hover {
+  color: #96d76a !important;
+}
+
+@media (max-width: 768px) {
+  .home {
+    width: 100% !important;
+  }
+}
